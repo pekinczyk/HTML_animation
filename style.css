@@ -1,0 +1,22 @@
+.ball {
+  display: block;
+  background: white;
+  border-radius: 50%;
+  border: solid black 1px;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  position: absolute;
+  
+}
+body{
+	background-color: white;
+	overflow: hidden
+}
+#screen{
+	position: relative;
+}
+#timer{
+	float: right;
+	background-color: white;
+}
