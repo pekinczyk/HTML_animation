@@ -51,11 +51,6 @@ function initAll(){
 		window.clearInterval(SECOND);
 		initAll();
 	});
-	$("#ballQTY").on('change',function(){
-		console.log("Quantity of ball changed to:",this.value);
-		BALLS = this.value;
-		$("#reset").click();
-	});
 	
 	console.log(1000/FPS);
     ANIMATE = window.setInterval(ANIMATION,parseInt(1000/FPS));
