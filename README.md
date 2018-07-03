@@ -1,2 +1,2 @@
 # HTML_animation
-dummy html/css/js animation
+simple html/css/js animation of "magnetic" balls
